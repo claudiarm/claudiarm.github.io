@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script src="p5/p5.js"></script>
+    <script src="p5/addons/p5.sound.js"></script>
+    <script src="p5/addons/p5.dom.js"></script>
+    <script src="qwerty.js"></script>
+    <script src="NexusUI.js"></script>
+    <title>Class3 - QWERTY Piano</title>
+
+</head>
+<body>
+    <div class="box">
+        <h1>Supercool FM Synth</h1>
+        <div id="carrier">Carrier</div>
+        <div id="mod">Modulator</div>
+        <div id="depth">Depth</div>
+        <div id="freq">Frequency</div>
+        <div id="knob"></div>
+        <div id="fader"></div>
+        <div id="Up">Octave Up: S</div>
+        <div id="Down">Octave Down: A</div>
+    </div>
+   
+        
+     <script>
+        var dial = new Nexus.Dial('#knob');
+        dial.on('change',function(v) {
+            console.log(v);
+            dSlider = map(v, 0, 1, modMinDepth, modMaxDepth);
+            console.log(dSlider);
+        });
+        var slider = new Nexus.Slider('#fader');
+        slider.on('change',function(slide) {
+            console.log(slide);
+            fSlider = map(slide, 0, 1, modMinFreq, modMaxFreq);
+            console.log(fSlider);
+        });
+    </script>
+    
+</body>
+</html>

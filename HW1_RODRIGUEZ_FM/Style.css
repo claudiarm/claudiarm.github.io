@@ -1,0 +1,78 @@
+.box {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #E56C7E;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 40px;
+}
+#depth {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 70px;
+    color: black;
+}
+#freq {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: -40px;
+    color: black;
+}
+#carrier {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 5px;
+    color: black;
+}
+#mod {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    background-color: gray;
+    width: 100px;
+    height: 40px;
+    margin-left: 220px;
+    margin-top: -40px;
+    color: black;
+}
+#knob {
+    margin-left: 90px;
+    margin-top: 20px;  
+}
+#fader {
+    margin-left: 210px;
+    margin-top: -47px;  
+}
+#Up{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+    color: black;
+}
+#Down{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: -40px;
+    color: black;
+}
